@@ -31,7 +31,9 @@
             ],
             "shim": {
                 "deps": [
-                    "backbone"
+                    "backbone",
+		    "backbone.wreqr",
+		    "backbone.babysitter"
                 ],
                 "exports": "Backbone.Marionette"
             }
